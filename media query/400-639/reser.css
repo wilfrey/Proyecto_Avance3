@@ -1,0 +1,69 @@
+@media screen and (min-width: 480px) and (max-width:639px) {
+    .salida, .resul, #texto3, #texto5 {
+    display: none;
+    }
+
+   .img15{
+    width: 100%;
+    height: 100%;
+    }
+
+    #texto2 {
+    width: 96%;
+    }
+
+    form {
+    width: 96%;
+    }
+
+    .contact_form ul {
+    width:101%;
+    }
+
+    .contact_form input, .contact_form textarea {
+    width: 90%;
+    }
+
+    .contact_form select {
+    width: 100%;
+    }
+
+    .form {
+    height: 750px;
+    background-color: rgba(252, 249, 249, 0.00);
+    margin-left: -17px;
+    }
+
+    #anuncio15 {
+    height: auto;
+    }
+
+    #texto4{
+    float: none;
+    margin: 0px;
+    width: 96%;
+    margin-top: 5px;
+    }
+
+    .table {
+    width: 95%;
+    }
+    .contenedor5 {
+    width: 85%;
+    height: auto;
+    padding-bottom: 35px;
+    }
+
+     .contact_form button{
+     margin-left: 72%;
+     }
+
+    #valores {
+    float: left;
+    margin-top: -48px;
+    width: 150px;
+    margin-left: 0px;
+    height: 45px;
+    }
+
+}

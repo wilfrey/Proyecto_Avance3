@@ -1,0 +1,39 @@
+   .resul {
+	background-color: #666;
+	margin: 0px;
+	padding: 5px;
+	clear: both;
+	height: 375px;
+	width: 98.4%;
+}
+
+    .form {
+	margin: 0px;
+	padding: 5px;
+	height: 525px;
+	width: 98.4%;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+    .salida{
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 0px;
+	padding: 5px;
+	height: 200px;
+	width: 98.5%;
+}
+
+footer .salida2 {
+	font-family: corbel;
+	background-color: rgba(0, 0, 9, 0.5);
+	margin:auto;
+	margin-top:150px;
+	clear: both;
+	height: auto;
+	width: 950px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius: 8px;
+	

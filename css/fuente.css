@@ -1,0 +1,141 @@
+.img{
+	width:100%;
+	height:100%;
+	}
+.imagen {
+	background-color: #333;
+	clear: both;
+	float: right;
+	height: 100%;
+	width: 40%;
+    margin-top: -205px;
+	border: thin solid #000;
+	-moz-box-shadow: 5px 2px 15px #000000;
+	-webkit-box-shadow: 5px 2px 15px #000000;
+	box-shadow: 5px 2px 15px #000000;
+}
+h2.post-title {
+	text-align: center;
+    background: #FF4500; /*da color a la barra de los subtitulos*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    behavior: url(htc/border-radius.htc);
+    padding: 0px 5px ;
+    border-top: 1px solid #889;
+    border-bottom: 1px solid #889;
+ 
+}
+h2.post-title a {
+    color: #FFFFFF;
+    font-size: 0.9em;
+    text-shadow: 1px 1px 2px #333333;
+}
+
+h3 {
+text-transform: uppercase;
+text-align: center;
+}
+
+.number {
+font-family: 'Arial Unicode MS';
+text-align: center;
+font-size:2em;
+color: #152c43;
+}
+
+.Reservar {
+text-align: center;
+margin: auto;
+color: white;
+font-size: large;
+width: 75%;
+height: auto;
+border-radius: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+background-color: #152c43;
+margin-top: 8px;
+}
+
+.Reservar a {
+color: white;
+text-decoration: none;
+}
+
+.content {
+	background-color: rgba(255, 255, 255, 0.2);
+	clear: both;
+	float: left;
+	height: 100%;
+	width: 51%;
+    border-radius: 8px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#titulo {
+    background-color: #152c43;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: -2px;
+}
+
+#texto {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+.tel {
+    font-family: 'Arial Unicode MS';
+    font-size:1em;
+    color: #152c43;
+}
+
+.h1_tema {
+text-transform: uppercase;
+color: white;
+text-align: center;
+font-size: large;
+}
+
+.h1_tema2 {
+text-transform: uppercase;
+color: white;
+text-align: center;
+font-size: large;
+}
+
+.paragraph {
+color: white;
+}
+
+.paragraph2 {
+color: white;
+}
+
+#xd {
+background-color: rgba(80, 113, 165, 0.4);
+height: 40%;
+padding: 5px;
+border-radius: 8px;
+}
+.h1_temas {
+text-transform: uppercase;
+color: white;
+text-align: center;
+font-size: large;
+margin-top: -5px;
+border-radius: 5px;
+background-color: rgb(36, 78, 144);
+}
+
+.img2{
+	width:100%;
+	height:90%;
+	}
+	

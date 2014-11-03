@@ -1,0 +1,41 @@
+@media screen and (min-width: 640px) and (max-width:767px) {
+     .Descripcion2, .slider2{
+    width: 218px;
+    height: 470px;
+    margin-top: 5px;
+    }
+
+    .salida {
+    height: 220px;
+    }
+
+    .slider2 {float: right;}
+
+    .Descripcion2 {float: left;}
+
+    .resul2 {
+    height: 510px;
+    }
+
+    .ih-item.square {
+    width: 97%;
+    height: 200px;
+    }
+
+    .ih-item.square.effect4 a:hover .info {
+    width: 200px;
+    height: 180px;
+    }
+
+    .ih-item.square.effect4 .mask1,.ih-item.square.effect4 .mask2{
+    display: none;
+    } 
+
+    .ih-item.square.effect4 .info {
+    width: 150px;
+    }
+
+    .ih-item.square.effect4 .info h3 {
+    font-size: 15px;
+    }
+}

@@ -1,0 +1,78 @@
+@media screen and (min-width: 320px) and (max-width:479px) {
+    .salida {
+    display: none;
+    }
+
+   .img15{
+    width: 100%;
+    height: 100%;
+    }
+
+    #texto2 {
+    width: 96%;
+    }
+
+    form {
+    width: 96%;
+    }
+
+    .resul {
+    display: none;
+    }
+
+    #texto3, #texto5 {
+    display: none;
+    }
+
+    .contact_form ul {
+    width:205px;
+    }
+
+    .contact_form input, .contact_form textarea {
+    width: 88%;
+    }
+
+    .contact_form select {
+    width: 100%;
+    }
+
+    .form {
+    height: 750px;
+    background-color: rgba(252, 249, 249, 0.00);
+    margin-left: -17px;
+    }
+
+    #anuncio15 {
+    height: auto;
+    }
+
+    #texto4{
+    float: none;
+    margin: 0px;
+    width: 96%;
+    margin-top: 5px;
+    }
+
+    .table {
+    width: 95%;
+    }
+    .contenedor5 {
+    width: 85%;
+    height: auto;
+    padding-bottom: 35px;
+    }
+
+    #valores {
+    margin-top: 18px;
+    width: 150px;
+    margin-left: 0px;
+    height: 45px;
+}
+
+    #Enviarr {
+    margin-top: 0px;
+    width: 150px;
+    height: 45px;
+    display: none;
+    }
+}

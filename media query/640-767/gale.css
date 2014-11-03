@@ -1,0 +1,20 @@
+@media screen and (min-width: 640px) and (max-width:959px) {
+    .slider {
+    width: 160px;
+    float: right;
+    height: 215px;
+    margin-top: -275px;
+    }
+
+    .resul{
+    width: 99%;
+    height: 275px;
+    }
+
+    .Descripcion {
+    width: 258px;
+    margin-top: 5px;
+    float: none;
+    height: 215px;
+    }
+}

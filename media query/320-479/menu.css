@@ -1,0 +1,17 @@
+@media screen and (min-width: 320px) and (max-width:479px) {
+    #nav {
+    display: none;
+    }
+
+    .willo {
+    display: block;
+    }
+
+    #colorNav > ul > li > a{
+	color:inherit;
+	text-decoration:none !important;
+	font-size:24px;
+	padding: 8px;
+    width: 20.95px;
+    }
+}

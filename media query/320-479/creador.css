@@ -1,0 +1,29 @@
+@media screen and (min-width: 320px) and (max-width:479px) {
+    .Descripcion2, .slider2 {
+    width:90%;
+    float: none;
+    height: 450px;
+    }
+
+    .Descripcion2 {margin-top: 5px;}
+
+    .slider2 {margin-top: -30px;margin-left: 5px;}
+
+    .resul2 {
+    height: 970px;
+    }
+
+    .ih-item.square {
+    width: 97%;
+    height: 191px;
+    }
+
+    .ih-item.square.effect4 a:hover .info, .mask1, .mask2 {
+    display: none;
+    }
+
+    #Estatico3, #Estatico2, .salida {
+    display: none;
+    }
+
+}

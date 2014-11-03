@@ -1,0 +1,26 @@
+@media screen and (min-width: 480px) and (max-width:639px) {
+    .footer, .salida{
+    display: none;
+    }
+
+    .Descripcion {
+    height: 225px;
+    width: 40%;
+    }
+
+    .resul {
+    height: 255px;
+    width: 100%;
+    }
+
+    .slider {
+    height: 225px;
+    float: right;
+    width: 40%;
+    margin-top: -285px;
+    }
+
+    .img2 {
+    height: 70%;
+    }
+}

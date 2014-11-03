@@ -1,0 +1,61 @@
+@media screen and (min-width: 480px) and (max-width:639px){
+    .fin, .contenedor {
+    width: 85%;
+    }
+    .images {
+    width: 100%;
+    height: 100%;
+    }
+
+    .slider {
+    width: 90%;
+    height: 200px;
+    margin-bottom: 5px;
+    }
+
+    .slides {
+    display: block;
+    width: 90%;
+    margin-top: 10px;
+    height: 200px;
+    }
+
+    #nav {
+    width: 330px;
+    }
+
+    .mini_slider, .footer, #Estatico, #anuncio2,.contenido4 {
+    display: none;
+    }
+
+    .contenido1, .contenido3 {
+    width: 380px;
+    }
+
+    .contenido1 {
+    height: 800px;
+    }
+
+    .contenido3 {
+    height: 260px;
+    }
+
+    .Descripcion {
+    width: 92%;
+    height: 270px;
+    margin-top: 5px;
+    float: none;
+    }
+
+    #Estatico3 {
+    float: none;
+    margin-top: 0px;
+    }
+
+    #anuncio {
+    width: 87%;
+    height: 215px;
+    float: none;
+    }
+
+}

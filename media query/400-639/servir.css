@@ -1,0 +1,25 @@
+@media screen and (min-width: 480px) and (max-width:639px) {
+    .footer{
+    display: block;
+    }
+
+    .Descripcion {
+    height: 225px;
+    width: 45%;
+    }
+
+    .contenido11 {
+    height: 255px;
+    width: 100%;
+    }
+
+    .Descripcion p {
+    font-size: 13px;
+    }
+
+    .slider {
+    float: right;
+    width: 35%;
+    margin-top: -275px;
+    }
+}

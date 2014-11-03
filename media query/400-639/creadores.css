@@ -1,0 +1,37 @@
+@media screen and (min-width: 480px) and (max-width:639px) {
+    .Descripcion2, .slider2{
+    width: 150px;
+    height: 372px;
+    margin-top: 5px;
+    }
+
+    .slider2 {float: right;}
+
+    .Descripcion2 {float: left;}
+
+    .resul2 {
+    height: 410px;
+    }
+
+    .ih-item.square {
+    width: 97%;
+    height: 155px;
+    }
+
+    .ih-item.square.effect4 a:hover .info {
+    width: 140px;
+    }
+
+    #Estatico3, .ih-item.square.effect4 .info p,.ih-item.square.effect4 .mask1,.ih-item.square.effect4 .mask2,#Estatico2, .salida {
+    display: none;
+    } 
+
+    .ih-item.square.effect4 .info {
+    width: 150px;
+    }
+
+    .ih-item.square.effect4 .info h3 {
+    font-size: 15px;
+    }
+
+}

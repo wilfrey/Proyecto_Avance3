@@ -1,0 +1,11 @@
+La pagina web esta creada con LocalStorage para las reservaciones y con sessionStorage los correos.Debido a que si creaba 2 localstorage la informacion de cada
+uno se iva a añadir a las tabla. Por lo tanto, para que no chocaran entre si utilice localStoage & sesssionStorage.
+
+El JSON fue utilizado para mostrar los datos de los creadores de la pagina web.
+
+El mediaQuery Funciona de Maravilla
+
+La tabla de reservaciones y correo solo puede ser visto cuando se utiliza una resolucion mayor a 800px, esta proceso fue creado con javascript window.MatchMedia
+
+Comentario:
+Para el proyecto utilizaremos svg para crear el croquis del restaurante con las reservaciones.

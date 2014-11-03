@@ -1,0 +1,14 @@
+@media screen and (min-width: 320px) and (max-width:479px) {
+    .footer{
+    display: block;
+    }
+
+    .Descripcion {
+    height: 225px;
+    width: 210px;
+    }
+
+    .contenido11 {
+    height: 255px;
+    }
+}

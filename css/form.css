@@ -1,0 +1,272 @@
+*:focus {
+outline: none;
+}
+.form_hint, .required_notification {
+font-size: 11px;
+}
+.contact_form ul {
+list-style-type:none;
+list-style-position:outside;
+margin:0px;
+padding:0px;
+width:570px;
+}
+.contact_form li{
+border-bottom:1px solid #eee;
+padding:12px;
+position:relative;
+}
+.contact_form li:first-child,
+.contact_form li:last-child {
+border-bottom:1px solid #777;
+}
+.required_notification {
+	color:#d45252;
+display:inline;
+float:right;
+margin:5px 0 0 0;
+}
+/* Estilos para los elementos de formulario */
+.contact_form label {
+display:inline-block;
+float:left;
+margin-top: 3px;
+padding:3px;
+width:150px;
+}
+.contact_form input {
+height:20px;
+padding:5px 8px;
+width:300px;
+}
+.contact_form textarea {
+padding:8px;
+width:300px;
+}
+
+.contact_form select {
+padding:8px;
+width:340px;
+}
+.contact_form button {
+margin-left:156px;
+}
+/* Estilos visuales para los elementos de formulario */
+.contact_form input, .contact_form textarea,.contact_form select {
+border:1px solid #aaa;
+box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+border-radius:2px;
+padding-right:30px;
+-moz-transition: padding .25s;
+-webkit-transition: padding .25s;
+-o-transition: padding .25s;
+transition: padding .25s;
+}
+.contact_form input:focus, .contact_form textarea:focus, .contact_form select:focus{
+background: #fff;
+border:1px solid #555;
+box-shadow: 0 0 3px #aaa;
+padding-right:70px;
+}
+/* Aplicacando validación con estilos aprovechando las características del HTML5 */
+.contact_form input:required, .contact_form textarea:required {
+background: #fff;
+}
+.contact_form input:required:valid, .contact_form textarea:required:valid {
+background: #fff;
+box-shadow: 0 0 5px #5cd053;
+border-color: #28921f;
+}
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+background: #fff;
+box-shadow: 0 0 5px #d45252;
+border-color: #b03535
+}
+/* Estilos para mostrar sugerencias mientras se llena el campo de formulario */
+.form_hint {
+background: #d45252;
+border-radius: 3px 3px 3px 3px;
+color: white;
+margin-left:8px;
+padding: 1px 6px;
+/* Mantiene las sugerencias siempre en primer plano */
+z-index: 999;
+/* Permite que la sugerencias mantengan formato aún cuando sean de más líneas */
+position: absolute;
+display: none;
+}
+.form_hint::before {
+content: "\25C0";
+color:#d45252;
+position: absolute;
+top:1px;
+left:-6px;
+}
+.contact_form input:focus + .form_hint {
+display: inline;
+}
+.contact_form input:required:valid + .form_hint {
+background: #28921f;
+}
+.contact_form input:required:valid + .form_hint::before {color:#28921f;}
+/* Estilos para el botón de envío */
+button.submit {
+background-color: #68b12f;
+background: -webkit-gradient(linear, left top, left bottom, from(#68b12f),
+to(#50911e));
+background: -webkit-linear-gradient(top, #68b12f, #50911e);
+background: -moz-linear-gradient(top, #68b12f, #50911e);
+background: -ms-linear-gradient(top, #68b12f, #50911e);
+background: -o-linear-gradient(top, #68b12f, #50911e);
+background: linear-gradient(top, #68b12f, #50911e);
+border: 1px solid #509111;
+border-bottom: 1px solid #5b992b;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+box-shadow: inset 0 1px 0 0 #9fd574;
+-webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+-moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+-ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+-o-box-shadow: 0 1px 0 0 #9fd574 inset;
+color: white;
+font-weight: bold;
+padding: 6px 20px;
+text-align: center;
+text-shadow: 0 -1px 0 #396715;
+}
+button.submit:hover {
+cursor: pointer;
+opacity:.85;
+}
+
+#valores {
+    float: right;
+    margin-top: -32px;
+}
+
+button.submit:active {
+border: 1px solid #20911e;
+box-shadow: 0 0 10px 5px #356b0b inset;
+-webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+-moz-box-shadow: 0 0 10px 5px #356b0b inset;
+-ms-box-shadow: 0 0 10px 5px #356b0b inset;
+-o-box-shadow: 0 0 10px 5px #356b0b inset;
+}
+
+#reservas {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 8px 5px;
+}
+    #anuncio15 {
+	margin: 15px;
+	padding: 10px;
+	clear: both;
+	float: left;
+	height: 85%;
+	width: 95%;
+	border-radius:8px;
+	background-color: rgba(36, 73, 168, 0.5);
+}
+
+    #anuncio16 {
+	margin: 15px;
+	padding: 10px;
+	clear: both;
+	float: left;
+	height:auto;
+	width: 95%;
+	border-radius:8px;
+	background-color: rgba(36, 73, 168, 0.5);
+}
+
+#texto2 {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 2px 5px;
+	width:575px;
+}
+
+#texto3 {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 8px 5px;
+	float:right;
+	width:275px;
+	margin-top:-408px;
+}
+
+#texto5 {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 8px 5px;
+	float:right;
+	width:275px;
+	margin-top:-508px;
+}
+
+#texto4 {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 8px 5px;
+	float:right;
+	width:275px;
+	margin-top:-230px;
+}
+
+table {
+    margin: auto;
+    margin-top: -10px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.60);
+}
+
+#cont	{
+    border:1px solid #ccc;
+    padding:10px;
+}
+
+#cont th{
+    color: white;
+}
+
+#cont tr:nth-child(even) {
+    background:#ccc; font-weight: bolder;
+}
+
+#cont td {
+    padding:5px;
+     text-align:center;
+     background-color: #e1f19b;
+}
+
+#cont1	{
+    border:1px solid #ccc;
+    padding:10px;
+}
+
+#cont1 th{
+    color: white;
+}
+
+.cont1	{
+    border:1px solid #ccc;
+    padding:10px;
+}
+
+.cont1 th{
+    color: white;
+}
+
+#cont1 tr:nth-child(even) {
+    background:#ccc; font-weight: bolder;
+}
+
+#cont1 td {
+    padding:5px;
+     text-align:center;
+     background-color: #e1f19b;
+}
